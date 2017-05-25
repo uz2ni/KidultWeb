@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+/* 메인 */
+.main_img{
+	opacity:0.3 !important;
+}
+.main_img:hover{
+	opacity:1.0 !important;
+}
+/* header */
+.style_lojo{
+	margin-top:10px !important;
+	margin-left:10px !important;
+}
+.style_nav{
+	padding:0 !important;
+}
+.nav-pills>li+li {
+    margin-left: 0 !important;
+}
+.dropdown-menu {
+	min-width:140px !important;
+	background-color:#2b2b2b !important;
+	margin:0 !important;
+}
+.dropdown-menu li a{
+	color:white !important;
+}
+.dropdown-menu li a:hover{
+	color:#2b2b2b !important;
+}
+.dropdown:hover .dropdown-menu {
+display: block !important;
+margin-top: 0 !important;
+}
+/*info_kidult_img 그림자주기*/
+.style_circle img{
+	box-shadow: 5px 5px 7px rgba(0,0,0,0.2);
+}
+.style_circle{
+	height:300px !important;
+}
+
+/*썸네일 크기 지정*/
+.style_thum{
+	height:400px !important;
+}
+.site_img{
+	height: 120px !important;
+}
+.style_thum h3{
+	margin-top:30px !important;
+	margin-bottom:10px !important;
+}
+.style_thum h5:nth-child(3){
+	margin-top:40px !important;
+}
+
+/*site_btn*/
+.style_site_btn{
+	position: absolute !important;
+    bottom: 40px !important;
+    right: 40px !important;
+    width: 100px !important;	
+}
+
+/*comu_thumbnail*/
+#style_comu{
+	height:300px !important;
+}
+.style_comu_tb{
+	width:90%;
+	height:230px !important;
+}
+.style_comu_tb td{
+	padding:20px;
+}
+.style_comu_tb tr td:nth-child(1){
+	width:30%;
+}
+.style_comu_tb h3{
+	margin-bottom: 30px !important;
+}
+.heart_btn{
+    position: absolute !important;
+    bottom: 40px !important;
+    right: 160px !important;
+    opacity: 0.2;
+}
+.heart_btn:hover{
+	opacity: 1.0;
+}
+
+.comu_img{
+	width:100% !important;
+}
+
+/*board*/
+.style_qa_tb{
+	margin-top:50px !important;
+	margin-bottom:50px !important;
+}
+.style_qa_tb thead tr th{
+	text-align:center;
+}
+.style_qa_tb thead tr th:nth-child(1){
+	width:5% !important;
+}
+.style_qa_tb thead tr th:nth-child(2){
+	width:10% !important;
+}
+.style_qa_tb thead tr th:nth-child(4){
+	width:10% !important;
+}
+.style_qa_tb thead tr th:nth-child(5){
+	width:15% !important;
+}
+.style_qa_tb tbody tr td:nth-child(1){
+	text-align:center;
+}
+.style_qa_tb tbody tr td:nth-child(2){
+	text-align:center;
+}
+.style_qa_tb tbody tr td:nth-child(4){
+	text-align:center;
+}
+.style_qa_tb tbody tr td:nth-child(5){
+	text-align:center;
+}
+.style_qa_page{
+ 	padding-top:50px !important;
+	padding-bottom:100px !important;
+ 	text-align:center !important;
+}
